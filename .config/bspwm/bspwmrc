@@ -18,8 +18,8 @@ bspc config active_border_color		"#a88b98"
 bspc config focused_border_color "#d69cc1"
 bspc config normal_border_color "#846a78"
 
-bspc rule -a "*" split_dir=east
-bspc rule -a \* rectangle 1280x720+0+0 center=true
+#bspc rule -a "*" split_dir=east
+#bspc rule -a \* rectangle 1280x720+0+0 center=true
 
 # Auto Start
 sxhkd &

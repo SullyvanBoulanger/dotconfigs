@@ -1,6 +1,12 @@
 super + Return
         kitty
 
+super + b
+	firefox
+
+super + e
+	nemo
+
 # d_menu launchers
 super + @space
         dmenu_run
@@ -31,6 +37,7 @@ super + q
 
 super + i
     bspc node -R 90
+
 super + shift + i
     bspc node -R -90
 
